@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Nunito Sans;
+}
+
+body {
+  background-color: #eee;
+}
+
+.container {
+  max-width: 1360px;
+  margin: 40px auto;
+}
+
+.reg {
+  width: 100%;
+  height: 870px;
+  border-radius: 24px;
+  box-shadow: 0px 6px 58px 0px rgba(196, 203, 214, 0.1);
+  background: rgba(255, 255, 255, 0.973);
+  display: flex;
+}
+
+.reg .block1 {
+  width: 50%;
+  background: rgb(63, 140, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  justify-content: space-around;
+  padding: 0 85px;
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+}
+
+.reg .block1 .logo {
+  display: block;
+  color: rgb(255, 255, 255);
+  font-family: Nunito Sans;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.reg .block1 .logo img {
+  width: 50px;
+}
+
+.reg .block1 h1 {
+  color: rgb(255, 255, 255);
+  font-family: Nunito Sans;
+  font-size: 40px;
+}
+
+.reg .block1 .intro {
+  width: 500px;
+  height: 373px;
+}
+
+.reg .block2 {
+  width: 50%;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  justify-content: space-around;
+  padding: 0 85px;
+  border-top-right-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+
+.reg .block2 form {
+  width: 90%;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.reg .block2 form .input-log {
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border: 1px solid rgb(216, 224, 240);
+  border-radius: 14px;
+  box-shadow: 0px 1px 2px 0px rgba(184, 200, 224, 0.22);
+  background: rgb(255, 255, 255);
+  margin-top: 10px;
+}
+
+.reg .block2 form .input-log:hover {
+  border: 1px solid rgb(63, 140, 255);
+}
+
+.reg .block2 form .input-log:focus {
+  border: 1px solid rgb(63, 140, 255);
+  box-shadow: 0px 1px 2px 0px rgba(63, 140, 255, 0.22);
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.reg .block2 form .input-log:focus .toggle-password {
+  color: rgb(63, 140, 255);
+}
+
+.reg .block2 form h2 {
+  color: rgb(10, 22, 41);
+  font-family: Nunito Sans;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.reg .block2 form .history {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reg .block2 form .history .remember {
+  display: flex;
+}
+
+.reg .block2 form .history .remember input {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+
+.reg .block2 form .history .remember label {
+  color: rgb(125, 133, 146);
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.reg .block2 form .history .forpas {
+  color: rgb(125, 133, 146);
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: right;
+}
+
+.reg .block2 form .submit {
+  width: 170px;
+  height: 48px;
+  border-radius: 14px;
+  box-shadow: 0px 6px 12px 0px rgba(63, 140, 255, 0.26);
+  background: rgb(63, 140, 255);
+  color: #fff;
+  border: none;
+  margin-left: 115px;
+  cursor: pointer;
+}
+
+.reg .block2 form .submit a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.reg .block2 form .noacc {
+  color: rgb(63, 140, 255);
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.error p {
+  color: red;
+  border: 1px solid red;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
